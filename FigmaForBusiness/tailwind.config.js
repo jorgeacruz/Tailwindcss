@@ -11,6 +11,7 @@ module.exports = {
         'Primary':['#380099'],
         'Amber':['#FFBB00'],
         'Folly':['#FF0055'],
+        'third':['#200059']
       }
     },
   },
