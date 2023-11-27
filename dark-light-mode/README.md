@@ -71,6 +71,16 @@ function toogleDark(){
 </html>
 ```
 
+# Change theme Automatilly
+### you can also just use the “media” option to automatically set the dark or light theme based on the browser’s color scheme preference.
+```
+// tailwind.config.js
+module.exports = {
+  darkMode: 'media',
+  // ...
+}
+```
+
 # Enjoy!
 ### Front-End: Jorge Cruz
 
