@@ -3,10 +3,12 @@ import './App.css';
 
 function App() {
 
-  //setting 
+  //setting Dark Mode Class
   function toogleDark(){
     document.documentElement.classList.toggle("dark")
   }
+
+
 
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center dark:bg-yellow-400">
