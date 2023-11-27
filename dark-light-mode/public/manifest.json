@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Dark Light Mode",
+  "name": "Simple Toogle Dark Light Mode",
   "icons": [
     {
       "src": "favicon.ico",
