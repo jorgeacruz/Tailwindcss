@@ -3,13 +3,13 @@ import './App.css';
 
 function App() {
 
-  //setting dark class
+  //setting 
   function toogleDark(){
     document.documentElement.classList.toggle("dark")
   }
 
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center dark:bg-yellow-400 duration-700">
+    <div className="w-full h-screen flex flex-col items-center justify-center dark:bg-yellow-400">
       <button className='p-2 bg-black text-white font-bold w-[200px] rounded-md absolute right-10 top-10 dark:bg-purple-700 dark:text-white'
       onClick={toogleDark}>
         Dark Mode
