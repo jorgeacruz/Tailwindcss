@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 export default function Accordion({empresa, cargo, funcao}) {
 
   const [accordionOpen, setAccordionOpen] = useState(false);
@@ -20,6 +19,7 @@ export default function Accordion({empresa, cargo, funcao}) {
         <div className="overflow-hidden">
           <p className="w-full p-1 text-lg font-bold text-gray-500 hover:text-black">{cargo}</p>
           <p className="w-full p-1 text-md"> {funcao} </p>
+          <hr className="my-2 w-20"/>
         </div>
       </div>
   
