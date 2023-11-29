@@ -1,10 +1,14 @@
-import React from "react";
 import Accordion from "./Accordion";
 
 export default function FAQ() {
+  
  return (
-   <div className="p-4 bg-gray-200 rounded-lg w-1/2">
-    <Accordion/>
+   <div className="p-4 w-1/2">
+    <Accordion empresa='Eleva Educação' cargo='Front-End Enginer' funcao='Desenvolvimento de novos websites institucionais com o objetivo de aprimorar a experiência dos usuários finais e simplificar a distribuição de conteúdo pedagógico nas escolas que adotaram esse novo formato.' />
+    <Accordion empresa='BIanca Guilarducci' cargo='Front-End Enginer' funcao='Desenvolvimento de novos websites institucionais com o objetivo de aprimorar a experiência dos usuários finais e simplificar a distribuição de conteúdo pedagógico nas escolas que adotaram esse novo formato.' />
+    <Accordion empresa='Web Jack Design' cargo='Front-End Enginer' funcao='Desenvolvimento de novos websites institucionais com o objetivo de aprimorar a experiência dos usuários finais e simplificar a distribuição de conteúdo pedagógico nas escolas que adotaram esse novo formato.' />
+    <Accordion empresa='SolutiON Marketing' cargo='Front-End Enginer' funcao='Desenvolvimento de novos websites institucionais com o objetivo de aprimorar a experiência dos usuários finais e simplificar a distribuição de conteúdo pedagógico nas escolas que adotaram esse novo formato.' />
+    
    </div>
  );
 }
