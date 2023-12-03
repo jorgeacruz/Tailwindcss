@@ -23,6 +23,9 @@ export default function NavBar() {
             <input type="text" placeholder="Search foods" className="bg-transparent p-2 focus:outline-none w-full"/>
         </div>
         {/** Cart Buttom */}
+        <button>
+            
+        </button>
     </div>
   );
 }
