@@ -1,5 +1,6 @@
 import React from "react";
-import { AiOutlineMenu} from 'react-icons/ai'
+
+import { AiOutlineMenu, AiOutlineSearch} from 'react-icons/ai'
 export default function NavBar() {
  return (
    <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4">
@@ -17,6 +18,11 @@ export default function NavBar() {
         </div>
     </div>
         {/** Search input */}
-   </div>
+        <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm?w-[400px] lg:w-[500px]">
+            <AiOutlineSearch size={25}/>
+            <input type="text" placeholder="Search foods" className="bg-transparent p-2 focus:outline-none w-full"/>
+        </div>
+        {/** Cart Buttom */}
+    </div>
   );
 }
