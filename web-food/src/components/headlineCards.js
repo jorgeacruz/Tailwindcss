@@ -2,7 +2,9 @@ import React from "react";
 
 export default function HeadlineCards(){
     return(
-        <div className="max-w-[1640px] mx-auto p-2 my-12 grid md:grid-cols-3 gap-6">
+        <div>
+            <h1 className="py-8 text-white font-bold text-4xl text-center">O <span className="text-orange-600">Melhor Cardápio</span> do Rio de Janeiro</h1>
+        <div className="max-w-[1640px] mx-auto p-2 my-5 grid md:grid-cols-3 gap-6">
             {/** Cards */}
             <div className="rounded-xl relative">
                 {/** Overlay */}
@@ -32,5 +34,6 @@ export default function HeadlineCards(){
                 <img src="https://images.pexels.com/photos/803963/pexels-photo-803963.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="/" className="rounded-xl max-h-[250px] w-full object-cover"/>
             </div>
         </div>
+     </div>   
     )
 }

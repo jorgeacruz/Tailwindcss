@@ -20,16 +20,20 @@ export default function NavBar() {
         <h1 className="text-2xl sm?text-3xl md:text-4xl px-2 text-white">
             Bar <span className="font-bold text-orange-600"> Esperança</span>
         </h1>
+
+        {/** Button Delivery 
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]"> 
             <p className="bg-black text-white rounded-full p-2">Delivery</p>
             <p className="p-2">Pickup</p>
         </div>
+         */}
     </div>
-        {/** Search input */}
+        {/** Search input
         <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm?w-[400px] lg:w-[500px]">
             <AiOutlineSearch size={25}/>
             <input type="text" placeholder="Search foods" className="bg-transparent p-2 focus:outline-none w-full"/>
         </div>
+         */}
         {/** Cart Buttom */}
         <button className="bg-white text-black hidden md:flex items-center py-2 rounded-full">
             <BsFillCartFill size={25} className="mr-2"/> Cart

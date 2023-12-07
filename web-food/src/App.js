@@ -4,7 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Hero from './components/hero';
 import HeadlineCards from './components/headlineCards';
-import Food from './components/Food';
+import Food from './components/food';
 import Categories from './components/categories';
 import Footer from './components/footer';
 import Copyright from './components/copyright';

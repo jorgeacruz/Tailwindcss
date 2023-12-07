@@ -29,7 +29,6 @@ export default function Food(){
 
     return(
         <div className="max-w-[1640px] mx-auto px-4 py-4">
-            <h1 className="text-white font-bold text-4xl text-center">Conheça nosso cardápio</h1>
 
             {/** flter Row */}
             <div className="flex flex-col lg:flex-row justify-between">
