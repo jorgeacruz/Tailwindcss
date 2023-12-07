@@ -6,7 +6,7 @@ export default function Categories(){
 
     return(
         <div className="max-w-[1640px] mx-auto px-4 py-12">
-            <h1 className="text-orange-600 font-bold text-center text-4xl py-8">Top Rated Menu Items</h1>
+            <h1 className="text-white font-bold text-center text-4xl py-8">Top Rated Menu Items</h1>
             {/** Categories */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 { categories.map((i, index) => (

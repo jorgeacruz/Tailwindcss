@@ -15,10 +15,10 @@ export default function NavBar() {
     {/** Left side */}
     <div className="flex items-center"> 
         <div onClick={() => setNav(!nav)} className="cursor-pointer">
-            <AiOutlineMenu size={32} />
+            <AiOutlineMenu size={32} color={'#fff'}/>
         </div>
-        <h1 className="text-2xl sm?text-3xl md:text-4xl px-2">
-            Best <span className="font-bold"> Eats</span>
+        <h1 className="text-2xl sm?text-3xl md:text-4xl px-2 text-white">
+            Bar <span className="font-bold text-orange-600"> Esperança</span>
         </h1>
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]"> 
             <p className="bg-black text-white rounded-full p-2">Delivery</p>
@@ -31,7 +31,7 @@ export default function NavBar() {
             <input type="text" placeholder="Search foods" className="bg-transparent p-2 focus:outline-none w-full"/>
         </div>
         {/** Cart Buttom */}
-        <button className="bg-black text-white hidden md:flex items-center py-2 rounded-full">
+        <button className="bg-white text-black hidden md:flex items-center py-2 rounded-full">
             <BsFillCartFill size={25} className="mr-2"/> Cart
         </button>
 
