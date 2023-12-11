@@ -3,8 +3,8 @@ import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai'
 
 export default function Footer(){
     return(
-        <div className="mx-auto max-w-[1640px] h-[280px] rounded-lg mb-5 bg-orange-500">
-            <div className="grid grid-cols-4 gap-2 p-12">
+        <div className="mx-auto max-w-[1640px] rounded-lg mb-5 bg-orange-500">
+            <div className="grid lg:grid-cols-4 gap-2 p-12 md:grid-cols-2 sm:grid-cols-1">
                 <div className="flex flex-col text-white">
                     <h1 className="text-2xl font-bold">Funcionamento</h1>
                     <h2 className="text-xl pt-4 font-bold">Restaurante</h2>
