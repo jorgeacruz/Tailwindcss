@@ -10,8 +10,9 @@ import Footer from './components/footer';
 import Copyright from './components/copyright';
 
 function App() {
+ 
   return (
-    <div className="bg-black pb-3">
+    <div className="bg-black pb-3 dark:bg-white">
       <NavBar/>
       <Hero/>
       <HeadlineCards/>

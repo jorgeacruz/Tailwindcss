@@ -3,7 +3,7 @@ import React from "react";
 export default function HeadlineCards(){
     return(
         <div>
-            <h1 className="py-8 text-white font-bold text-4xl text-center">O <span className="text-orange-600">Melhor Cardápio</span> do Rio de Janeiro</h1>
+            <h1 className="py-8 text-white font-bold text-4xl text-center dark:text-black">O <span className="text-orange-600">Melhor Cardápio</span> do Rio de Janeiro</h1>
         <div className="max-w-[1640px] mx-auto p-2 my-5 grid md:grid-cols-3 gap-6">
             {/** Cards */}
             <div className="rounded-xl relative">

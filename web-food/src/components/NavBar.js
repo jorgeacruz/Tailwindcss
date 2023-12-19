@@ -14,10 +14,10 @@ export default function NavBar() {
    <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4">
     {/** Left side */}
     <div className="flex items-center"> 
-        <div onClick={() => setNav(!nav)} className="cursor-pointer">
+        <div onClick={() => setNav(!nav)} className="cursor-pointer dark:bg-black">
             <AiOutlineMenu size={32} color={'#fff'}/>
         </div>
-        <h1 className="text-2xl sm?text-3xl md:text-4xl px-2 text-white">
+        <h1 className="text-2xl sm?text-3xl md:text-4xl px-2 text-white dark:text-black">
             Bar <span className="font-bold text-orange-600"> Esperança</span>
         </h1>
 
