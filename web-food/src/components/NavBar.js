@@ -5,7 +5,6 @@ import { MdFavorite, MdHelp } from 'react-icons/md'
 import { FaWallet, FaUserFriends } from 'react-icons/fa'
 import { TbTruckDelivery } from 'react-icons/tb'
 
-
 export default function NavBar() {
 
     const [nav, setNav] = useState(false);
