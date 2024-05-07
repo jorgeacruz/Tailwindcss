@@ -18,7 +18,7 @@ export default function Accordion({empresa, cargo, funcao}) {
       ${ accordionOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0" }`}>
         <div className="overflow-hidden">
           <p className="w-full p-1 text-lg font-bold text-gray-500 hover:text-black">{cargo}</p>
-          <p className="w-full p-1 text-md"> {funcao} </p>
+          <p className="w-3/4 p-1 text-lg "> {funcao} </p>
           <hr className="my-2 w-20"/>
         </div>
       </div>
